@@ -28,5 +28,5 @@ mongoose.connect(process.env.DB_CONNECTION, () =>
 //mongoose.connect("mongodb://localhost:27017/myCV");
 //listen på servern
 app.listen(PORT, () => {
-  console.log(`server running on port: http://localhost:${PORT}`);
+  console.log(`server running on port: http://localhost:${PORT}/api/courses`);
 });
